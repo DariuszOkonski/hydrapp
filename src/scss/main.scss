@@ -1,13 +1,17 @@
+@import "modules/app.scss";
+@import "modules/buttons.scss";
+@import "modules/glass.scss";
+
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
 
 body {
-  background: $wtf;
+  background: #3767ad;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
